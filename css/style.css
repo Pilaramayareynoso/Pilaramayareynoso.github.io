@@ -69,47 +69,6 @@ h3 {
     justify-content: space-evenly;
 }
 
-/* altura/posicion de mi continer de categorias */
-.conteiner-secciones {
-
-    height: 90%vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly
-}
-
-.navbar-toggler {
-    height: 5%;
-    width: 30%;
-}
-
-/* Agrego Imagenes/altura de mis imagenes de los productos de mi seccion */
-
-
-.categoria img {
-    padding: 2rem;
-
-    width: 100%p;
-}
-
-.categoria {
-
-    border: 2px;
-    width: 100%;
-    height: 50%;
-
-    border-radius: 50%;
-
-    font-size: 1, 8rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-
-}
-
 
 
 /* cuerpo de la tarjeta body personalizo */
@@ -181,25 +140,33 @@ h3 {
 /* EMPIEZA LA REMODELACION DEL GRID 4 COLUMNAS DEL BODY*/
 .grid-container {
     display: grid;
-    grid-template-columns:  repeat(2, 1fr) ;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns:  40% 40%  ;
+    grid-template-rows: 40% 40% ;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+     gap: 20px;
     margin-top: 7%;
   }
-  
-  .grid-item {
+
+   .grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
-    padding: 20px;
+    background-color: rgb(216, 214, 211);
+    padding: 30px;
     transition: transform 0.3s;
+
+   
   }
   
   .grid-item:hover {
     transform: scale(1.2);
   }
 
+ /* EMPIEZA LA REMODELACION DE LOS PRODUCTOS DE MI INICIO*/
+ 
 
 .footer-decojunco {
 
