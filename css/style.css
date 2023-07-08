@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 /* cambio la tipografia y el tamaño de el titulo principal de la barra de navegacion */
@@ -179,6 +179,29 @@ h3 {
 
 }
 
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.card-title {
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
 
 
    
@@ -229,7 +252,7 @@ footer {
 
 
 
-
+/* EMPIEZA LA REMODELACION DE MI carrusel*/
 .navbar-brand {
     justify-content: start;
 }
@@ -273,29 +296,7 @@ footer {
     }
 }
 
-
-.card-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly
-}
-
-.card-title {
-    color: chocolate;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-.card-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly
-}
-
-.card-text {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
+/* EMPIEZA LA REMODELACION DE CONTACTO*/
 
 .form-control {
     border-color: chocolate;
