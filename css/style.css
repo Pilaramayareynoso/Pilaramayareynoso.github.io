@@ -338,8 +338,11 @@ footer {
 
   .mapa img {
     height: 80%;
-    width: 60%;
+    width: 50%;
+    
   }
+  
+
 
 
   @media (min-width: 470px) {
