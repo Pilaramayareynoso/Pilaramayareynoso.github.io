@@ -1,12 +1,12 @@
 .form-control {
     border-color: chocolate;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $ff-times;
     font-size: 150%;
 }
 
 .input-group-text {
     border-color: chocolate;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $ff-times;
     font-size: 150%;
     height: 20%;
     padding: 2rem;
