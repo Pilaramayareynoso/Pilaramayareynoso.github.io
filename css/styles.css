@@ -7,7 +7,7 @@
 
 /* cambio la tipografia y el tamaño de el titulo principal de la barra de navegacion */
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium', 'Arial Narrow", Arial, sans-serif;
   font-size: 250%;
   color: white;
 }
@@ -30,7 +30,7 @@ a {
 
 /* CAMBIO DE ESTILO/ALTURA DE MI H2 */
 h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium', 'Arial Narrow", Arial, sans-serif;
   font-size: 200%;
   padding: 3rem;
   display: flex;
@@ -39,7 +39,7 @@ h2 {
 
 /* diseño de mi h3 */
 h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium', 'Arial Narrow", Arial, sans-serif;
   font-size: 200%;
   padding: 2rem;
   display: flex;
@@ -129,16 +129,6 @@ footer {
 @media (min-width: 470px) {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
-  }
-}
-@media (min-width: 350px) {
-  .imagen-tarjeta {
-    width: 18rem;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin: 10%;
-    gap: 5%;
   }
 }
 .card-title {

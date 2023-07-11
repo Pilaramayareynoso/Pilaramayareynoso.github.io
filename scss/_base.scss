@@ -1,3 +1,8 @@
+$ff-franklin: "Franklin Gothic Medium', 'Arial Narrow", Arial, sans-serif;
+    
+
+
+
 /* saco los margenes */
 
 * {
@@ -8,7 +13,7 @@
 
 /* cambio la tipografia y el tamaño de el titulo principal de la barra de navegacion */
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $ff-franklin;
     font-size: 250%;
     color: white;
 }
@@ -39,7 +44,7 @@ a {
 /* CAMBIO DE ESTILO/ALTURA DE MI H2 */
 
 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $ff-franklin;
     font-size: 200%;
 
     padding: 3rem;
@@ -54,7 +59,7 @@ h2 {
 /* diseño de mi h3 */
 
 h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $ff-franklin;
     font-size: 200%;
 
     padding: 2rem;
