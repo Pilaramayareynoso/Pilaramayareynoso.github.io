@@ -8,7 +8,7 @@
 
 .card-title {
     color: chocolate;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $ff-arial;
     font-size: 30px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .card-text {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $off-serif;
     font-size: 20px;
 }
 
