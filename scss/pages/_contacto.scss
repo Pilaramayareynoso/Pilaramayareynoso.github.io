@@ -1,0 +1,31 @@
+.form-control {
+    border-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+.input-group-text {
+    border-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    height: 20%;
+    padding: 2rem;
+}
+
+.ubicacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-gap: 20px;
+    height: 400px;
+  }
+
+  .mapa {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 470px) {
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
+    }
+  }

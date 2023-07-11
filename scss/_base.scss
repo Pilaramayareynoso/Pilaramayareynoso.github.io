@@ -1,0 +1,64 @@
+/* saco los margenes */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* cambio la tipografia y el tamaño de el titulo principal de la barra de navegacion */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* saco de las listas los puntos de la derecha */
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+
+
+/* saco las lineas del texto  y le agrego color a la letra*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* CAMBIO DE ESTILO/ALTURA DE MI H2 */
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+
+    padding: 3rem;
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+/* diseño de mi h3 */
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
